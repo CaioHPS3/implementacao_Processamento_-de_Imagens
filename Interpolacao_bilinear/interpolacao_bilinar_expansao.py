@@ -9,7 +9,7 @@ arquivo = sys.argv[1]
 imagem_original = Image.open(arquivo)
 
 # Utizando o metado convert transformamos a imagem original em tons de cinza 
-imagem_cinza = imagem_original.convert('L')   # L - use the ITU-R 601-2 luma transform to convert color to grayscale
+imagem_cinza = imagem_original.convert('L')
 
 # Pegando as porpoções da imagem 
 largura, altura = imagem_cinza.size

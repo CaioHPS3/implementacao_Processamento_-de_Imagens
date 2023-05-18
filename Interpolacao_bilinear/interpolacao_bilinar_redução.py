@@ -18,7 +18,7 @@ largura, altura = imagem_cinza.size
 img_tabela = np.asarray(imagem_cinza)
 
 # Criando uma tabela com medade do tamanho da imagem original 
-reducao = np.resize(imagem_cinza,  (int(altura/2), int(largura/2)))
+reducao = np.resize(imagem_cinza, (int(altura/2), int(largura/2)))
 
 # Percore toda a tabela
 for l in range (0 , altura - 1, 2):
